@@ -1,8 +1,10 @@
 #title {
     font-weight: 400;
+    font-weight: bold;
     font-style: normal;
-    color:rgb(107, 79, 6);
-    background-color: #e5b844;
+    font-family: "Outfit", sans-serif;
+    color:rgb(53, 53, 52);
+    background-color: #bbbbbb;
     text-align: center;
   }
 #author {
@@ -11,7 +13,7 @@
 
 hr{
     width: 500px;
-    border-color: #884a02;
+    border-color: #353535;
 }
 
 
@@ -19,8 +21,7 @@ hr{
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
-
+    
     background-image: url(3274412.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +32,7 @@ body{
 #board{
     width: 345px;
     height: 480px;
-    background-color: burlywood;
+    background-color: rgb(226, 226, 226);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +64,7 @@ body{
     font-size: 36px;
     font-weight: bold;
     vertical-align: middle;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 .correct {
@@ -106,15 +107,15 @@ body{
     text-transform: uppercase;
     width: 80px;
     height: 60px;
-    background: #c9b499;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #b4b4b4;
+    font-family: "Outfit", sans-serif;
 }
 
 #hint{
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: brown;
-    color: white;
+    font-family: "Outfit", sans-serif;
+    background: rgb(53, 53, 53);
+    color: rgb(243, 243, 243);
     letter-spacing: 2.5px;
 }
 
